@@ -65,7 +65,7 @@ People who take medication regularly may forget scheduled doses or find it diffi
 1. Clone the repository:
 
    ```bash
-   https://github.com/saifali799/medireminder-android.git
+   git clone https://github.com/saifali799/medireminder-android.git
    ```
 
 2. Navigate to the project directory:

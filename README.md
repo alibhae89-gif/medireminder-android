@@ -1,28 +1,97 @@
 # MediReminder
 
-## Project Overview
-MediReminder is an Android mobile application designed to help users manage their medication schedules and remember when to take their medicines.
+## Group Information
+
+**Group Name:** [H]
+
+**Group Members:**
+
+| No. | Student Name | Student ID |
+|---|---|---|
+| 1 | Muhammad Saif | B23F1000CS174 |
+| 2 | Ali Tahir | B24S0757CS057 |
+| 3 | Abdullah Sheraz | B24S0877CS052 |
+| 4 | Salar-ul-Islam | B2S0127CS018 |
+
+## Project Description
+
+MediReminder is an Android mobile application designed to help users organize and manage their medication schedules. It aims to reduce missed doses by allowing users to maintain medicine records, schedule medication reminders, and track their medication activities through a simple and user-friendly interface.
 
 ## Problem Statement
-People taking regular medication may forget scheduled doses or find it difficult to manage multiple medicines at different times. MediReminder aims to provide a simple solution for organizing medication schedules.
 
-## Main Features
+People who take medication regularly may forget scheduled doses or find it difficult to manage multiple medicines at different times. MediReminder aims to provide a simple solution for organizing medication schedules and reminding users when to take their medicines.
+
+## Planned Features
+
+### Must Have
 - Add new medicines.
 - View saved medicines.
 - Edit and delete medicine records.
-- Search medicines by name.
+- Schedule medication reminders.
+- Receive local notifications for scheduled doses.
+
+### Should Have
 - Mark doses as taken or skipped.
-- Receive scheduled local notifications.
-- View dose history.
+- Search medicines by name.
+- View medication schedules.
+
+### Could Have
+- View medication dose history.
+- Additional improvements to the user interface and user experience.
 
 ## Technology Stack
-- Flutter
-- Dart
-- SQLite
-- Local Notifications
+
+| Technology | Purpose |
+|---|---|
+| Flutter | Mobile application framework |
+| Dart | Programming language |
+| SQLite | Local database storage |
+| Local Notifications | Medication reminders |
 
 ## Target Platform
-Android
+
+**Android**
+
+## Project Setup Instructions
+
+### Prerequisites
+- Flutter SDK
+- Dart SDK (included with Flutter)
+- Android Studio or Android SDK
+- Visual Studio Code (recommended)
+
+### Installation and Execution
+
+1. Clone the repository:
+
+   ```bash
+   https://github.com/saifali799/medireminder-android.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd medireminder
+   ```
+
+3. Install project dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Connect an Android device or start an emulator.
+
+5. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+## Project Status
+
+This repository contains the initial Flutter project setup for MediReminder. The application features and integrations are planned for implementation in subsequent assignments.
+
 
 
 

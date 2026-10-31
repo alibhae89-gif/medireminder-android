@@ -11,7 +11,7 @@
 | 1 | Muhammad Saif | B23F1000CS174 |
 | 2 | Ali Tahir | B24S0757CS057 |
 | 3 | Abdullah Sheraz | B24S0877CS052 |
-| 4 | Salar-ul-Islam | B2S0127CS018 |
+| 4 | Salar-ul-Islam | B24S0127CS018 |
 
 ## Project Description
 

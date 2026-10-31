@@ -71,7 +71,7 @@ People who take medication regularly may forget scheduled doses or find it diffi
 2. Navigate to the project directory:
 
    ```bash
-   cd medireminder
+   cd medireminder-android
    ```
 
 3. Install project dependencies:

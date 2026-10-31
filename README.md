@@ -96,3 +96,8 @@ This repository contains the initial Flutter project setup for MediReminder. The
 
 
 
+## Contributing
+1. Fork the repository and clone your fork.
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes with a clear message.
+4. Push the branch and open a pull request to `main`.

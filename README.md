@@ -127,3 +127,12 @@ Run `flutter doctor` to check that your setup matches before running the app.
 ### Could Have
 - [ ] View medication dose history
 - [ ] UI and UX improvements
+## Planned Screens
+
+| Screen | Purpose |
+|---|---|
+| Medicine List | View, search, and delete saved medicines |
+| Add / Edit Medicine | Enter name, dosage, and notes |
+| Reminder Setup | Choose times and days for each medicine |
+| Today's Schedule | See today's doses and mark them taken or skipped |
+| Dose History | Review past taken and skipped doses |

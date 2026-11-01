@@ -110,3 +110,20 @@ This repository contains the initial Flutter project setup for MediReminder. The
 | OS | Ubuntu Linux |
 
 Run `flutter doctor` to check that your setup matches before running the app.
+## Development Roadmap
+
+### Must Have
+- [ ] Add new medicines
+- [ ] View saved medicines
+- [ ] Edit and delete medicine records
+- [ ] Schedule medication reminders
+- [ ] Local notifications for scheduled doses
+
+### Should Have
+- [ ] Mark doses as taken or skipped
+- [ ] Search medicines by name
+- [ ] View medication schedules
+
+### Could Have
+- [ ] View medication dose history
+- [ ] UI and UX improvements

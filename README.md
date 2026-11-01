@@ -101,3 +101,12 @@ This repository contains the initial Flutter project setup for MediReminder. The
 2. Create a branch: `git checkout -b feature/your-feature`
 3. Commit your changes with a clear message.
 4. Push the branch and open a pull request to `main`.
+## Tested Environment
+
+| Tool | Version |
+|---|---|
+| Flutter | 3.47.9 (stable) |
+| Dart | 3.13.7 |
+| OS | Ubuntu Linux |
+
+Run `flutter doctor` to check that your setup matches before running the app.

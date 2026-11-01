@@ -136,3 +136,35 @@ Run `flutter doctor` to check that your setup matches before running the app.
 | Reminder Setup | Choose times and days for each medicine |
 | Today's Schedule | See today's doses and mark them taken or skipped |
 | Dose History | Review past taken and skipped doses |
+## Proposed Database Schema
+
+*Draft for the group to review. SQLite tables:*
+
+**medicines**
+
+| Column | Type | Notes |
+|---|---|---|
+| id | INTEGER | Primary key, auto-increment |
+| name | TEXT | Required |
+| dosage | TEXT | Required, e.g. "500 mg" |
+| notes | TEXT | Optional |
+
+**reminders**
+
+| Column | Type | Notes |
+|---|---|---|
+| id | INTEGER | Primary key, auto-increment |
+| medicine_id | INTEGER | Foreign key to medicines.id, delete cascades |
+| time | TEXT | "HH:mm" |
+| days_of_week | TEXT | e.g. "Mon,Wed,Fri" |
+| is_active | INTEGER | 1 = on, 0 = off |
+
+**dose_logs**
+
+| Column | Type | Notes |
+|---|---|---|
+| id | INTEGER | Primary key, auto-increment |
+| medicine_id | INTEGER | Foreign key to medicines.id |
+| scheduled_at | TEXT | ISO 8601 date and time |
+| status | TEXT | "taken" or "skipped" |
+| logged_at | TEXT | ISO 8601 date and time |

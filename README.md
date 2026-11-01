@@ -168,3 +168,10 @@ Run `flutter doctor` to check that your setup matches before running the app.
 | scheduled_at | TEXT | ISO 8601 date and time |
 | status | TEXT | "taken" or "skipped" |
 | logged_at | TEXT | ISO 8601 date and time |
+## Git Conventions
+
+- Create one branch per feature: `feature/medicine-list`, `fix/reminder-bug`.
+- Do not push directly to `main`. Open a pull request and get a review.
+- Write commit messages in the imperative: "Add medicine form", not "Added medicine form".
+- Keep each commit to one change.
+- Run `git pull upstream main` before starting new work.
